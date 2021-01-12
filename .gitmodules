@@ -1,0 +1,9 @@
+[submodule "adbd"]
+	path = adbd
+	url = https://github.com/kiddlu/android-adbd-for-linux.git
+[submodule "init"]
+	path = init
+	url = https://github.com/kiddlu/android-init-for-linux.git
+[submodule "logcat"]
+	path = logcat
+	url = https://github.com/kiddlu/android-logcat-for-linux.git
