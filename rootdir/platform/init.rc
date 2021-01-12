@@ -1,0 +1,14 @@
+on init
+    loglevel 7
+    hostname linux
+
+on boot
+    class_start default
+
+service adbd /platform/bin/adbd
+    oneshot
+    console
+
+service rclocal /platform/init.local
+    oneshot
+    console

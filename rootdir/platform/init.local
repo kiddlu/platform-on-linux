@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+echo "Hello World"
+
+exit 0
