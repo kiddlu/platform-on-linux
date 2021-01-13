@@ -7,3 +7,6 @@
 [submodule "logcat"]
 	path = logcat
 	url = https://github.com/kiddlu/android-logcat-for-linux.git
+[submodule "cbinder"]
+	path = cbinder
+	url = https://github.com/kiddlu/android-cbinder-for-linux.git

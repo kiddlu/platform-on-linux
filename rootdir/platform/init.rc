@@ -9,6 +9,10 @@ service adbd /platform/bin/adbd
     oneshot
     console
 
+service binderd /platform/bin/binderd
+    oneshot
+    console
+
 service rclocal /platform/init.local
     oneshot
     console
